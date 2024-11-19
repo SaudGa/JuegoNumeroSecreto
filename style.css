@@ -27,7 +27,7 @@ body::before {
 }
 
 .container {
-    width: 1200px;
+    width: 95%;
     height: 600px;
     display: flex;
     align-items: center;
@@ -108,4 +108,13 @@ button {
 .texto__parrafo {
     font-size: 32px;
     font-weight: 400;
+}
+
+@media (max-width: 1250px){
+    .container{
+        justify-content: center;
+    }
+    .container__imagen-persona{
+        display: none;
+    }
 }
